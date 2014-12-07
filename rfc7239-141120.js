@@ -13,7 +13,7 @@ var toQuotedIPv6Addr = function(addr, family) {
     if (/ipv6/i.test(family)) {
 	    addr = '[' + addr + ']';
     }
-    return(addr)
+    return(addr);
 }
 
 var procReq = function(servReq, servResp, cliReq) {
